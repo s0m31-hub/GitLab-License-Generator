@@ -56,7 +56,7 @@ docker run --rm -it \
 #### Method (2): Build image
 
 ```bash
-git clone https://github.com/Lakr233/GitLab-License-Generator.git
+git clone https://github.com/AriusII/GitLab-License-Generator.git
 docker build GitLab-License-Generator -t gitlab-license-generator:main
 docker run --rm -it \
   -v "./license:/license-generator/build" \
